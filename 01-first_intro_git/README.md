@@ -1,5 +1,3 @@
-# ![](/assets/logo@2x.png)
-
 |[Table of Contents](/00-Table-of-Contents.md)|
 |---|
 

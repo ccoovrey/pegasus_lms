@@ -27,7 +27,7 @@ Screen Locking, Group Policy Settings, Operating System Permissions, etc.
 ### Links to Navigate the course Curriculum
 Please use the Table of Contents (TOC) and continue to next topic links to navigate the curriculum. Each curriculum subject is tied to our introduction page which may be accessed from any of our curriculums TOC's. By clicking on the name of the subject (below) you will be taken to the associated TOC. 
 
-<a href="https://github.com/ccoovrey/pegasus_lms/master/blob/01-first_intro_git/00-Table-of-Contents.md" > First Introduction to Git </a>
+<a href="https://github.com/ccoovrey/pegasus_lms/blob/master/01-first_intro_git/00-Table-of-Contents.md" > First Introduction to Git </a>
 
 ## Course Information
 **Note** Instead of the traditional Powerpoint setup; we use Github to navigate the course. The entire course is written using markdown language. It is tracked via the git platform and displayed in Github. The course is easy to navigate and well organized, so there is nothing to worry about. 
