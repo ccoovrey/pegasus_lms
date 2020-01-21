@@ -1,4 +1,4 @@
-|[Return to TOC](/01-first_intro_git/00-Table-of-Contents.md)|
+|[Return to TOC](00-Table-of-Contents.md)|
 |---|
 
 ---

@@ -5,11 +5,8 @@
 
 * Introduction
 * Key Concepts
-* Download Git
-
-Git Reference:
-
-[https://git-scm.com/docs](https://git-scm.com/docs)
+* Download Vagrant
+* First Vagrant - Windows 10 Desktop
 
 ---
 
