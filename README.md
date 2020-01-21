@@ -1,5 +1,4 @@
 # Team Pegasus LMS 
-**NOTE: might want to see about gitlab too!!**
 Welcome to Team Pegasus cyber training. This is a course designed to provide a 
 strong background in cyber skills used in the off season in Cyber Patriot. Each 
 candidate will choose to learn either Linux or Windows operating systems with 
