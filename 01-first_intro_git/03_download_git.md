@@ -1,4 +1,4 @@
-|[Return to TOC](/00-Table-of-Contents.md)|
+|[Return to TOC](/01-first_intro_git/00-Table-of-Contents.md)|
 |---|
 
 ---
@@ -9,27 +9,27 @@ To download the latest version of git for windows go to: [http://gitforwindows.o
 
 Once the download has completed start the **Git Setup** and follow the prompts as shown below...
 
-![](/assets/18.PNG)
+![](assets/18.PNG)
 
-![](/assets/19.PNG)
+![](assets/19.PNG)
 
-![](/assets/20.PNG)
+![](assets/20.PNG)
 
-![](/assets/20_1.PNG)
+![](assets/20_1.PNG)
 
-![](/assets/21.PNG)
+![](assets/21.PNG)
 
-![](/assets/22.PNG)
+![](assets/22.PNG)
 
-![](/assets/23.PNG)
+![](assets/23.PNG)
 
-![](/assets/24.PNG)
+![](assets/24.PNG)
 
-![](/assets/26.PNG)
+![](assets/26.PNG)
 
  Run the following commands to configure your **Git username **and **email.** These details will be associated with any commits that you create:
 
-![](/assets/27.PNG)
+![](assets/27.PNG)
 
 Let's clone the Pegasus LMS repo using Git. Do the following in Git:
 ```

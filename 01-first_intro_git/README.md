@@ -13,5 +13,5 @@ Git Reference:
 
 ---
 
-|[Next Topic](/01_Introduction.md)|
+|[Next Topic](/01-first_intro_git/01_Introduction.md)|
 |---|

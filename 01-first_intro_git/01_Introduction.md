@@ -1,11 +1,11 @@
-|[Return to TOC](/00-Table-of-Contents.md)|
+|[Return to TOC](/01-first_intro_git/00-Table-of-Contents.md)|
 |---|
 
 ---
 
 # Introduction to Git
 
-![](/assets/28.png)
+![](/01-first_intro_git/assets/28.png)
 
 _**Git:**_ is a _distributed_ version control system, which means that everyone working with a project in Git has a copy of the full history of the project, not just the current state of the files.
 
