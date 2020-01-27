@@ -7,7 +7,6 @@
 
 * [Introduction](README.md)
 * [Vagrant](01_Introduction.md)
-* [Key Concepts](02_key_concepts.md)
-* [Download Vagrant](03_download_vagrant.md)
-* [First VM - Windows Desktop](04_windows_vagrant.md)
+* [Download Vagrant](02_download_vagrant.md)
+* [Spinning up a Vagrant](03_spinning_up_vagrant.md)
   

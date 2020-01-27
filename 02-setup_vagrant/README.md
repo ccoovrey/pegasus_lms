@@ -4,9 +4,8 @@
 ---
 
 * Introduction
-* Key Concepts
 * Download Vagrant
-* First Vagrant - Windows 10 Desktop
+* Spinning up a vagrant image
 
 ---
 
