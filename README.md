@@ -1,6 +1,6 @@
 # Team Pegasus LMS 
-Welcome to Team Pegasus cyber training. This is a course designed to provide a 
-strong background in cyber skills used in the off season in Cyber Patriot. Each 
+Welcome to Team Pegasus training. This is a course designed to provide a 
+strong background in skills used in the off season. Each 
 candidate will choose to learn either Linux or Windows operating systems with 
 networking skills. The course will focus in a script based command line approach,
 hardening the following vulnerabilities:
