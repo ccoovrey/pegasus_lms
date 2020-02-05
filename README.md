@@ -31,5 +31,9 @@ Please use the Table of Contents (TOC) and continue to next topic links to navig
 
 <a href="https://github.com/ccoovrey/pegasus_lms/blob/master/02-setup_vagrant/00-Table-of-Contents.md" > Setup Vagrant </a>
 
+<a href="https://github.com/ccoovrey/pegasus_lms/blob/master/03-intro_linux_bash/00-Table-of-Contents.md" > Setup Vagrant </a>
+
+<a href="https://github.com/ccoovrey/pegasus_lms/blob/master/04-intro_win_powershell/00-Table-of-Contents.md" > Setup Vagrant </a>
+
 ## Course Information
 **Note** Instead of the traditional Powerpoint setup; we use Github to navigate the course. The entire course is written using markdown language. It is tracked via the git platform and displayed in Github. The course is easy to navigate and well organized, so there is nothing to worry about. 
