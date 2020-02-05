@@ -6,7 +6,7 @@
 ## Introduction Linux Bash - Table of contents
 
 * [Introduction](README.md)
-* [Vagrant](01_Introduction.md)
-* [Download Vagrant](02_download_vagrant.md)
-* [Spinning up a Vagrant](03_spinning_up_vagrant.md)
+* [Linux Bash](01_Introduction.md)
+* [Linux OS](02_intro_linux_os.md)
+* [Bash Scripting](03_bash_scripting.md)
   
