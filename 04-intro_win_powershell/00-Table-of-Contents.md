@@ -6,7 +6,7 @@
 ## Introduction Windows Powershell - Table of contents
 
 * [Introduction](README.md)
-* [Vagrant](01_Introduction.md)
-* [Download Vagrant](02_download_vagrant.md)
-* [Spinning up a Vagrant](03_spinning_up_vagrant.md)
+* [Windows Powershell](01_Introduction.md)
+* [Windows OS](02_intro_win_os.md)
+* [Powershell](03_powershell.md)
   

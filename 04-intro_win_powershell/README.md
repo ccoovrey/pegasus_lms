@@ -4,6 +4,9 @@
 ---
 
 * Introduction
+* Introduction Windows Powershell
+* Windows OS
+* Powershell
 
 ---
 

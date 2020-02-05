@@ -4,6 +4,8 @@
 ---
 
 * Introduction
+* Linux OS
+* Bash Scripting
 
 ---
 
