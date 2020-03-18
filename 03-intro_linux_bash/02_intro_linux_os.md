@@ -9,6 +9,7 @@ In this section, using the ubuntu 16 vagrant, we will explore the Linux Operatin
 System. Using SANS Cyber Aces tutorials we will explore Linux. Specifically:
 
 * [Core Commands](https://tutorials.cyberaces.org/tutorials/view/1-1-3.html)
+  - try out the first set of vulnerabilities at: [ubu16_vagrant](ubu16_vagrant)
 * [Users and Groups](https://tutorials.cyberaces.org/tutorials/view/1-1-4.html)
 * [Applications and Services](https://tutorials.cyberaces.org/tutorials/view/1-1-5.html)
 * [Files and Permissions](https://tutorials.cyberaces.org/tutorials/view/1-1-6.html)
