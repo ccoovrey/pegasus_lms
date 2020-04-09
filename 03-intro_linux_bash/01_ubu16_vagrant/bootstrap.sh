@@ -3,28 +3,23 @@
 sudo chown -R vagrant /home/vagrant
 sudo chgrp -R vagrant /home/vagrant
 
-#
-# Update & install dependencies
-#
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install -y unzip python-tk
-
 # install payload
 cp /vagrant/test.zip /home/vagrant/test.zip
 cd /home/vagrant
 unzip test.zip
+
+# blah
 mkdir .evil
 mv /home/vagrant/*.mxd /home/vagrant/.evil
+sudo useradd cyberfool
 
 # move ui files
-mv ScoreReport.hml /home/vagrant/Desktop
-mv Question1.txt /home/vagrant/Desktop
+sudo chown -R vagrant /home/vagrant/Desktop
+sudo cp /home/vagrant/ScoreReport.html /home/vagrant/Desktop/ScoreReport.html
+
 
 # configure ui
-python /home/vagrant/CSEL/configurator.py
-sudo sh /home/vagrant/CSEL/install.sh
-rm -rf CSEL
-rm sed5Qp7Ss
+sudo sh /vagrant/install.sh
+rm *.html *.cfg install.sh *.png sed5Qp7Ss payload
 
 echo "DONE!"
