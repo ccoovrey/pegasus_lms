@@ -8,8 +8,8 @@
 In this section, using the ubuntu 16 vagrant, we will explore the Linux Operating
 System. Using SANS Cyber Aces tutorials we will explore Linux. Specifically:
 
-## Core Commands
-[SANS Cyber Aces Core Commands](https://tutorials.cyberaces.org/tutorials/view/1-1-3.html)
+## 1.0 Core Commands
+[SANS Cyber Aces Core Commands Tutorial](https://tutorials.cyberaces.org/tutorials/view/1-1-3.html)
 
 ### 1.0 Linux Exercises
 Using [First set of Ubuntu vulnerabilities](01_ubu16_vagrant) . Answer the
@@ -46,9 +46,32 @@ to sudo for some of these files.
 Find out using pipes the list of users on the system, what is the 
 command line sentence? 
 
+## 2.0 Users and Groups
+[SANS Cyber Aces Users and Groups Commands Tutorial](https://tutorials.cyberaces.org/tutorials/view/1-1-4.html)
+
+### 2.0 Linux Exercises
+Using [Next Ubuntu vulnerabilities](02_ubu16_vagrant) . Answer the
+following questions:
+
+**2.1:**
+Get a list of the users and groups in the vm (other than defaults). What files would have this 
+information? What commands would you do to get this list?
+
+**2.2:**
+Find users that have root privileges. 
+
+** 2.3:**
+Find out more about the password for user cyberfool. If you wanted to change cyberfool
+password how would you do this on the command line? What resource would you do to
+understand how to create a new password that complies with security standards?
+
+** 2.4:**
+Delete users that have root privileges. Delete users that have a suspicious group
+name.
+
 ## Other lessons
 Each one of these is going to have exercises associated with them:
-* [Users and Groups](https://tutorials.cyberaces.org/tutorials/view/1-1-4.html)
+
 * [Applications and Services](https://tutorials.cyberaces.org/tutorials/view/1-1-5.html)
 * [Files and Permissions](https://tutorials.cyberaces.org/tutorials/view/1-1-6.html)
 * [Installing Software](https://tutorials.cyberaces.org/tutorials/view/1-1-7.html) 

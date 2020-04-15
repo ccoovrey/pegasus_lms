@@ -8,8 +8,8 @@
 In this section, using the windows 10 vagrant, we will explore the Windows Operating
 System. Using SANS Cyber Aces tutorials we will explore Windows. Specifically:
 
-## Command Line Basics
-[SANS Cyber Aces Command Line Basics](https://tutorials.cyberaces.org/tutorials/view/1-2-3.html).
+## 1.0 Command Line Basics
+[SANS Cyber Aces Command Line Basics Tutorial](https://tutorials.cyberaces.org/tutorials/view/1-2-3.html).
 
 ### 1.0 Windows Exercises
 Using [First set of Windows vulnerabilities](01_win10_vagrant). Answer the 
@@ -57,11 +57,33 @@ home directory and pipe to a text file? What are/is the name(s) of these
 files and where located? Next search and delete the file(s) on the 
 command line. 
 
+## 2.0 File System
+[SANS Cyber Aces File System Tutorial](https://tutorials.cyberaces.org/tutorials/view/1-2-4.html).
+
+### 2.0 Windows Exercises
+Using [Next Windows vulnerabilities](02_win10_vagrant). Answer the 
+following questions:
+
+**2.1:**
+In Windows what is the root folder (highest directory)? What would the file 
+path be of vagrant users home directory?
+
+**2.2:**
+What is the file path of the 64-bit applications directory? If we had 32-bit 
+applications what would be the file path? Where are application configurations
+(like linux /etc directory) - file path? Go to this file path in powershell.
+
+**2.3:**
+Find pegasus squadron picture. Save this to your desktop using powershell.
+What is the file size of hello.txt?
+
+**2.3:**
+List out the files in the Documents directory and redirect the output into
+a file named cyber_info.txt
 
 ## Other lessons
 Each one of these is going to have exercises associated with them:
 
-* [File System](https://tutorials.cyberaces.org/tutorials/view/1-2-4.html)
 * [Users and Groups](https://tutorials.cyberaces.org/tutorials/view/1-2-5.html)
 * [Policies and Credential Storage](https://tutorials.cyberaces.org/tutorials/view/1-2-6.html)
 * [Registry](https://tutorials.cyberaces.org/tutorials/view/1-2-7.html)
