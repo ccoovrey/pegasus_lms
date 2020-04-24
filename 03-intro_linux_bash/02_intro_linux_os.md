@@ -12,16 +12,21 @@ System. Using SANS Cyber Aces tutorials we will explore Linux. Specifically:
 [SANS Cyber Aces Core Commands Tutorial](https://tutorials.cyberaces.org/tutorials/view/1-1-3.html)
 
 ### 1.0 Linux Exercises
-Using [First set of Ubuntu vulnerabilities](01_ubu16_vagrant) . Answer the
-following questions:
+Using [the directory: 01_ubu16_vagrant](01_ubu16_vagrant) , go to the
+directory and vagrant up:
+```
+cd 01_ubu16_vagrant
+vagrant up
+```
+Answer the following questions:
 
 **1.1:**
 Open a terminal and navigate around, what commands are useful for this? How
 do you use: pwd, ls and cd ? How do you go up and down different directories?
 
 **1.2:**
-Using --help or -h , investigate into the options you can use for pwd, ls
-and cd.
+Using --help, investigate into the options you can use for pwd, ls
+and cd. Also use man.
 
 **1.3:**
 How do you read a file on the command line? You can use vim, nano or 
@@ -50,8 +55,13 @@ command line sentence?
 [SANS Cyber Aces Users and Groups Commands Tutorial](https://tutorials.cyberaces.org/tutorials/view/1-1-4.html)
 
 ### 2.0 Linux Exercises
-Using [Next Ubuntu vulnerabilities](02_ubu16_vagrant) . Answer the
-following questions:
+Using [the directory: 02_ubu16_vagrant](02_ubu16_vagrant) , go to the 
+directory and vagrant up:
+```
+cd 02_ubu16_vagrant
+vagrant up
+```
+answer the following questions:
 
 **2.1:**
 Get a list of the users and groups in the vm (other than defaults). What files would have this 
@@ -60,12 +70,12 @@ information? What commands would you do to get this list?
 **2.2:**
 Find users that have root privileges. 
 
-** 2.3:**
+**2.3:**
 Find out more about the password for user cyberfool. If you wanted to change cyberfool
 password how would you do this on the command line? What resource would you do to
 understand how to create a new password that complies with security standards?
 
-** 2.4:**
+**2.4:**
 Delete users that have root privileges. Delete users that have a suspicious group
 name.
 

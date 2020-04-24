@@ -1,2 +1,4 @@
-03-intro_linux_bash/ubu16_vagrant/.vagrant/*
-04-intro_win_powershell/win10_vagrant/.vagrant/*
+03-intro_linux_bash/01_ubu16_vagrant/.vagrant/*
+03-intro_linux_bash/02_ubu16_vagrant/.vagrant/*
+04-intro_win_powershell/01_win10_vagrant/.vagrant/*
+04-intro_win_powershell/02_win10_vagrant/.vagrant/*

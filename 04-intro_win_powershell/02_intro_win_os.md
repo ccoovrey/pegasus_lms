@@ -12,8 +12,13 @@ System. Using SANS Cyber Aces tutorials we will explore Windows. Specifically:
 [SANS Cyber Aces Command Line Basics Tutorial](https://tutorials.cyberaces.org/tutorials/view/1-2-3.html).
 
 ### 1.0 Windows Exercises
-Using [First set of Windows vulnerabilities](01_win10_vagrant). Answer the 
-following questions:
+Using [the directory: 01_win10_vagrant](01_win10_vagrant), go to the
+directory and vagrant up:
+```
+cd 01_win10_vagrant
+vagrant up
+```
+answer the following questions:
 
 **1.1:**
 Open a terminal using powershell. How do you do this? Once in powershell
@@ -22,7 +27,7 @@ ls and cd ? Is ls and dir the same? How do you go up and down different
 directories?
 
 **1.2:**
-Using --help or -h , investigate into the options you can use for pwd, ls
+Using --help , investigate into the options you can use for pwd, ls
 and cd. Are the options different for dir and ls ?
 
 **1.3:**
@@ -61,8 +66,13 @@ command line.
 [SANS Cyber Aces File System Tutorial](https://tutorials.cyberaces.org/tutorials/view/1-2-4.html).
 
 ### 2.0 Windows Exercises
-Using [Next Windows vulnerabilities](02_win10_vagrant). Answer the 
-following questions:
+Using [the directory 02_win10_vagrant](02_win10_vagrant). Answer the 
+directory and vagrant up:
+```
+cd 02_win10_vagrant
+vagrant up
+```
+answer the following questions:
 
 **2.1:**
 In Windows what is the root folder (highest directory)? What would the file 
@@ -81,10 +91,24 @@ What is the file size of hello.txt?
 List out the files in the Documents directory and redirect the output into
 a file named cyber_info.txt
 
+## 3.0 Users and Groups 
+[SANS Cyber Aces Users and Groups Tutorial](https://tutorials.cyberaces.org/tutorials/view/1-2-5.html)
+
+### 3.0 Windows Exercises
+Using [the directory 03_win10_vagrant](03_win10_vagrant). Answer the 
+directory and vagrant up:
+```
+cd 03_win10_vagrant
+vagrant up
+```
+answer the following questions:
+
+**3.1:**
+Blah
+
 ## Other lessons
 Each one of these is going to have exercises associated with them:
 
-* [Users and Groups](https://tutorials.cyberaces.org/tutorials/view/1-2-5.html)
 * [Policies and Credential Storage](https://tutorials.cyberaces.org/tutorials/view/1-2-6.html)
 * [Registry](https://tutorials.cyberaces.org/tutorials/view/1-2-7.html)
 * [Networking and Sharing](https://tutorials.cyberaces.org/tutorials/view/1-2-8.html)

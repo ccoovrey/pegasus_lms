@@ -10,8 +10,10 @@ unzip test.zip
 
 # blah
 sudo groupadd -g 2002 hacking-group
-sudo useradd cyberfool --gid 2002
-sudo useradd thehacker --gid 0
+sudo adduser cyberfool --gid 2002 
+echo 'cyberfool:cyberfool' | sudo chpasswd
+sudo adduser thehacker --gid 0 
+echo 'thehacker:thehacker' | sudo chpasswd
 
 # move ui files
 sudo chown -R vagrant /home/vagrant/Desktop
