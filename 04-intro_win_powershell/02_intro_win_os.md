@@ -11,28 +11,10 @@ System. Using SANS Cyber Aces tutorials we will explore Windows. Specifically:
 ## 1.0 Command Line Basics
 [SANS Cyber Aces Command Line Basics Tutorial](https://tutorials.cyberaces.org/tutorials/view/1-2-3.html).
 
-### 1.0 Windows Exercises
-Using [the directory: 01_win10_vagrant](01_win10_vagrant), go to the
-directory and vagrant up:
-```
-cd 01_win10_vagrant
-vagrant up
-```
-answer the following questions:
-
-**1.1:**
-Open a terminal using powershell. How do you do this? Once in powershell
-navigate around, what commands are useful for this? How do you use: pwd, 
-ls and cd ? Is ls and dir the same? How do you go up and down different
-directories?
-
-**1.2:**
-Using --help , investigate into the options you can use for pwd, ls
-and cd. Are the options different for dir and ls ?
-
-**1.3:**
+### 1.1 Other Information
+**1.1.1:**
 How do you read a file on the command line with powershell? In linux this
-is an easy task just pick your application (vim, nano, cat, ...). Lets try
+is an easy task just pick your application (vim, nano, ...). Lets try
 to use a powershell command lit for this task. 
 ```
 $TextFile = "C:\Users\vagrant\hello.txt"
@@ -52,20 +34,63 @@ $a.Count
 $a[3]
 ```
 
-First attempt to look at this, in further lessons we will look more into
-this.
+This is good for doing scripts (having a variable and using this in a 
+script that you have programmed). Seems a bit clunky. Is there a better
+way? Why not use nano or vim in powershell? If you try:
+```
+vim --help
 
-**1.4:**
-Somewhere in the vagrant home directory are bad file(s) (based on how its
-named). First what pipe sentence would you use to list files in vagrant
-home directory and pipe to a text file? What are/is the name(s) of these
-files and where located? Next search and delete the file(s) on the 
-command line. 
+nano --help
+```
+You get an error. To install these in powershell do the following for nano:
+```
+choco install nano
+```
+If you're brave you could use vim:
+```
+choco install vim 
+```
+
+**1.1.2:**
+How do you pipe? Lets look at a simple example. In this example we are going
+to use a > symbol which is like a funnel that moves text into a file.
+```
+ls > hello1.txt
+
+```
+
+### 1.2 Windows Exercises
+Using [the directory: 01_win10_vagrant](01_win10_vagrant), go to the
+directory and vagrant up:
+```
+cd 01_win10_vagrant
+vagrant up
+```
+answer the following questions:
+
+**1.2.1:**
+Open a terminal using powershell. How do you find out about different commands 
+(help)? Investigate into the options you can use for pwd, ls and cd. Are 
+the options different for dir and ls? How do you use help for vim or nano? How
+do you read and scroll up/down in the terminal?
+
+**1.2.2:**
+How do you go up and down different directories?
+
+**1.2.3:**
+Somewhere in the vagrant home directory are bad file(s) (easy to find
+based on how they are named). What are the names of the files?
+
+**1.2.4:**
+What pipe sentence would you use to list files in directory in Documents and 
+pipe to a text file?  What are/is the name(s) of these files and where located? 
+
+Next delete the file(s) on the command line. 
 
 ## 2.0 File System
 [SANS Cyber Aces File System Tutorial](https://tutorials.cyberaces.org/tutorials/view/1-2-4.html).
 
-### 2.0 Windows Exercises
+### 2.1 Windows Exercises
 Using [the directory 02_win10_vagrant](02_win10_vagrant). Answer the 
 directory and vagrant up:
 ```
@@ -74,11 +99,11 @@ vagrant up
 ```
 answer the following questions:
 
-**2.1:**
+**2.1.1:**
 In Windows what is the root folder (highest directory)? What would the file 
 path be of vagrant users home directory?
 
-**2.2:**
+**2.1.2:**
 What is the file path of the 64-bit applications directory? If we had 32-bit 
 applications what would be the file path? Where are application configurations
 (like linux /etc directory) - file path? Go to this file path in powershell.
@@ -94,7 +119,7 @@ a file named cyber_info.txt
 ## 3.0 Users and Groups 
 [SANS Cyber Aces Users and Groups Tutorial](https://tutorials.cyberaces.org/tutorials/view/1-2-5.html)
 
-### 3.0 Windows Exercises
+### 3.1 Windows Exercises
 Using [the directory 03_win10_vagrant](03_win10_vagrant). Answer the 
 directory and vagrant up:
 ```
@@ -103,8 +128,12 @@ vagrant up
 ```
 answer the following questions:
 
-**3.1:**
-Blah
+**3.1.1:**
+Get a list of the local users and also get their attributes:
+
+**3.1.2:**
+Get a list of the groups, zero in on some suspicious ones and
+get their attributes:
 
 ## Other lessons
 Each one of these is going to have exercises associated with them:

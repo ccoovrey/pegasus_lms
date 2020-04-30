@@ -8,7 +8,7 @@ cp /vagrant/test.zip /home/vagrant/test.zip
 cd /home/vagrant
 unzip test.zip
 
-# blah
+# add users 
 sudo groupadd -g 2002 hacking-group
 sudo adduser cyberfool --gid 2002 
 echo 'cyberfool:cyberfool' | sudo chpasswd
