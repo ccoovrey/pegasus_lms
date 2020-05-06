@@ -194,6 +194,28 @@ Each one of these is going to have exercises associated with them:
 * [Files and Permissions](https://tutorials.cyberaces.org/tutorials/view/1-1-6.html)
 * [Installing Software](https://tutorials.cyberaces.org/tutorials/view/1-1-7.html) 
 
+## 6.0 List of Commands
+Here is a list of commands that are being used in the above exercises:
+
+|	command	|	options	|	use cases |	examples |
+|-------|-------|-----|-------|
+| cd |   | change directory | cd ../ , some_dir |
+| pwd | | print work dir | pwd |
+| ls | | list files and directory | ls -a, ls -Ra |
+| rm | -f | remove force | |
+|    | -R | recursive remove | |
+| cat |   | concatenate (print) | |
+| head | -n | show front of file | head -n 3 /etc/passwd | 
+| tail | -n | show end of file | tail -n 3 /etc/passwd | 
+| cut | -d | delimiter | cut -d: /some_dir/file |
+|     |    |           | cut -d, /some_dir/file |
+|     | -f | get column | cut -f1,3 /some_dir/file |
+| grep | -v | get every thing except | grep -v root |
+| egrep | ':0$' | get this pattern | egrep ':0$'
+| awk | -F: | delimiter | awk -F: |
+|     | '$1 > 123' | filter 1st column > integer | awk -F: '$1 > 123' |
+|     | && | two filters with and | awk -F: '$1 >12 && $3 < 30' |
+
 ---
 
 |[Next Topic](03_bash_scripting.md)|

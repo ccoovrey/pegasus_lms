@@ -143,6 +143,24 @@ Each one of these is going to have exercises associated with them:
 * [Networking and Sharing](https://tutorials.cyberaces.org/tutorials/view/1-2-8.html)
 * [Services and Processes](https://tutorials.cyberaces.org/tutorials/view/1-2-9.html)
 
+## 7.0 List of Commands
+Here is a list of commands that are being used in the above exercises:
+
+|	command	|	options	|	use cases |	examples |
+|-------|-------|-----|-------|
+| cd |   | change directory | cd ../ , some_dir |
+| pwd | | print work dir | pwd |
+| ls | | list files and directory | ls -a, ls -Ra |
+|    | -depth | depth of subdirectory ls | ls -depth 2 |
+|    | -hidden | show hidden files and directories | ls -hidden |
+| rm | -f | remove force | |
+|    | -R | recursive remove | |
+| cat |   | concatenate (print) | |
+| mv |    | move file | mv some.txt ..\hello\some.txt |
+| get-localuser | | | get list of local users | get-localuser |
+| get-localgroup | | get local groups | get-localgroup |
+| | -name | get local groups by name | get-localgroup -name |
+
 ---
 
 |[Next Topic](03_powershell.md)|
