@@ -6,7 +6,12 @@
 # Introduction to Linux Operating System
 
 In this section, using the ubuntu 16 vagrant, we will explore the Linux Operating
-System. Using SANS Cyber Aces tutorials we will explore Linux. Specifically:
+System. If you want to look at an ubuntu 16 vagrant without any vulnerabilities 
+and look at [the directory: normal_ubu16_vagrant](normal_ubu16_vagrant). This 
+is a useful thing to do because you can look at files and configurations that 
+don't have vulnerabilities and learn about an OS that is normal. Using SANS 
+Cyber Aces tutorials we will explore Linux, using different vagrants for the 
+exercises below. Specifically:
 
 ## 1.0 Core Commands
 [SANS Cyber Aces Core Commands Tutorial](https://tutorials.cyberaces.org/tutorials/view/1-1-3.html)
@@ -186,6 +191,16 @@ delete users that have root privileges. Why wouldn't you use a pipe for this?
 
 **2.2.6:**
 delete users that are part of a suspicious group name.
+
+## 3.0 Linux OS Mid Term
+Using [the directory: 03_mid_intro_linux](03_mid_intro_linux) , go to the
+directory and vagrant up:
+```
+cd 03_mid_intro_linux
+vagrant up
+```
+There are vulnerabilities with a score engine html in the vagrant user. What
+score did you get?
 
 ## Other lessons
 Each one of these is going to have exercises associated with them:

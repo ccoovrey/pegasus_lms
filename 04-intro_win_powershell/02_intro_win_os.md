@@ -6,7 +6,12 @@
 # Introduction to Windows Operating System
 
 In this section, using the windows 10 vagrant, we will explore the Windows Operating
-System. Using SANS Cyber Aces tutorials we will explore Windows. Specifically:
+System. If you want to look at a windows 10 vagrant without any vulnerabilities 
+and look at [the directory: normal_win10_vagrant](normal_win10_vagrant). This 
+is a useful thing to do because you can look at files and configurations that 
+don't have vulnerabilities and learn about an OS that is normal. Using SANS 
+Cyber Aces tutorials we will explore Windows, using different vagrants 
+for the exercises below. Specifically:
 
 ## 1.0 Command Line Basics
 [SANS Cyber Aces Command Line Basics Tutorial](https://tutorials.cyberaces.org/tutorials/view/1-2-3.html).
