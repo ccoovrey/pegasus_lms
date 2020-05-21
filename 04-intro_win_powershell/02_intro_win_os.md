@@ -140,6 +140,15 @@ Get a list of the local users and also get their attributes:
 Get a list of the groups, zero in on some suspicious ones and
 get their attributes:
 
+## 4.0 Windows OS Mid Term
+Using [the directory: 04_mid_intro_win10](04_mid_intro_win10) , go to the
+directory and vagrant up:
+```
+cd 04_mid_intro_win10
+vagrant up
+```
+There are vulnerabilities write down how many you get.
+
 ## Other lessons
 Each one of these is going to have exercises associated with them:
 

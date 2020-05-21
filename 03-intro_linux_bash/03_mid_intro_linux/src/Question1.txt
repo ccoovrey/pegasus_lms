@@ -1,5 +1,0 @@
-This is a pipe question. Answer it below
-------------------------
-what is the pipe to that will give you users that have root access?
-
-ANSWER: 

@@ -4,13 +4,14 @@ sudo chown -R vagrant /home/vagrant
 sudo chgrp -R vagrant /home/vagrant
 
 # install payload
-cp /vagrant/test.zip /home/vagrant/test.zip
-cd /home/vagrant
+mkdir /home/vagrant/CSEL
+cp /vagrant/test.zip /home/vagrant/CSEL/test.zip
+cd /home/vagrant/CSEL
 unzip test.zip
 
 # files
-mkdir .hackers_here
-mv /home/vagrant/*.mxd /home/vagrant/.hackers_here
+mkdir /home/vagrant/.hackers_here
+cp /home/vagrant/CSEL/*.mxd /home/vagrant/.hackers_here
 
 # add users 
 sudo groupadd -g 2020 hacking-group
@@ -19,12 +20,9 @@ echo 'lordjarjar:lordjarjar' | sudo chpasswd
 sudo adduser drax --gid 0 
 echo 'drax:drax' | sudo chpasswd
 
-# move ui files
-sudo chown -R vagrant /home/vagrant/Desktop
-mv /home/vagrant/Question1.txt /home/vagrant/Desktop/Question1.txt
-
 # configure ui
-sudo sh /home/vagrant/install.sh
-rm -rf *.png *.cfg *.sh payload
+sudo ./install.sh
+cd /home/vagrant
+rm -rf CSEL
 
 echo "DONE!"
