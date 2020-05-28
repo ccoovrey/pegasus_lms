@@ -202,10 +202,22 @@ vagrant up
 There are vulnerabilities with a score engine html in the vagrant user. What
 score did you get?
 
+## 4.0 Applications and Services
+[SANS Cyber Acers Applications and Services Tutorial](https://tutorials.cyberaces.org/tutorials/view/1-1-5.html)
+
+### 4.1 Linux Exercises
+Using [the directory: normal_ubu16_vagrant](normal_ubu16_vagrant) , go to the
+directory and vagrant up:
+```
+cd normal_ubu16_vagrant
+vagrant up
+```
+answer the following questions in the Cyber Aces tutorial.  Run applications and 
+services in the "safe" normal ubuntu vagrant.
+
 ## Other lessons
 Each one of these is going to have exercises associated with them:
 
-* [Applications and Services](https://tutorials.cyberaces.org/tutorials/view/1-1-5.html)
 * [Files and Permissions](https://tutorials.cyberaces.org/tutorials/view/1-1-6.html)
 * [Installing Software](https://tutorials.cyberaces.org/tutorials/view/1-1-7.html) 
 
