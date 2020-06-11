@@ -149,10 +149,43 @@ vagrant up
 ```
 There are vulnerabilities write down how many you get.
 
+## 5.0 Windows Policies and Credential Storage
+[SANS Cyber Aces Policies and Credential Storage](https://tutorials.cyberaces.org/tutorials/view/1-2-6.html)
+
+Using [the directory: normal_win10_vagrant](normal_win10_vagrant) , go to the
+directory and vagrant up:
+```
+cd normal_win10_vagrant 
+vagrant up
+```
+
+### 5.1 Windows Tutorial on reg commands in powershell
+This is a tutorial on the "reg" command in powershell. To get the values of 
+all the registry keys on a local machine, we first have to find the path to 
+the registry. Let’s get a list of all the local drives:
+```
+get-psdrive
+```
+
+Lets inspect and understand the HKLM directory (HKEY_LOCAL_MACHINE). The 
+HKLM\SYSTEM is a key directory and it has some very useful information. We
+can use the "reg" command specifically query to understand this info
+further. Try out these commands:
+```
+reg query HKLM\SYSTEM
+
+reg query HKLM\SYSTEM\CurrentControlSet\Control\Windows
+
+# useful - list the mounted devices on the machine
+reg query HKLM\SYSTEM\MountedDevices
+
+# good way to see software on the machine
+reg query HKLM\Software\Microsoft
+```
+
 ## Other lessons
 Each one of these is going to have exercises associated with them:
 
-* [Policies and Credential Storage](https://tutorials.cyberaces.org/tutorials/view/1-2-6.html)
 * [Registry](https://tutorials.cyberaces.org/tutorials/view/1-2-7.html)
 * [Networking and Sharing](https://tutorials.cyberaces.org/tutorials/view/1-2-8.html)
 * [Services and Processes](https://tutorials.cyberaces.org/tutorials/view/1-2-9.html)

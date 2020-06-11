@@ -205,15 +205,70 @@ score did you get?
 ## 4.0 Applications and Services
 [SANS Cyber Acers Applications and Services Tutorial](https://tutorials.cyberaces.org/tutorials/view/1-1-5.html)
 
-### 4.1 Linux Exercises
+### 4.1 Tutorial on Ubuntu sysv-rc-conf
+In the SANS Cyber tutorial this module presents ntsysv as a utility to look
+at services on the command line. This utility is only deployable in RedHat
+and CentOs via:
+```bash
+sudo yum install ntsysv
+```
+
+If we wanted to look at an equivalent tool in Ubuntu and Debian we could 
+look at sysv-rc-conf. This is installed via:
+```bash
+sudo apt-get install sysv-rc-conf
+```
+
+Look at the man pages and help for this command line utility.
+
+Using a classic model for example, Linux works in runlevels, sets of modes 
+similar somewhat to Windows Safe mode with/without command prompt and/or 
+networking. Runlevels define what runs when the system boots. Runlevel 1 is 
+the maintenance mode, also known as single mode, with root access only and 
+minimal shell. Runlevel 3 is the system level with networking and no GUI. 
+Modern desktop distros usually boot in runlevel 5, which is the full system 
+level, with networking and GUI. And so forth.
+
+Definitions for what services should boot in each runlevel are listed 
+under /etc/rcX.d/ directories, where X signifies the runlevel. Inside these 
+directories, you will find scripts, starting with letter S and a two-digit 
+number, e.g. S04somescript. These are the Start scripts for relevant services. 
+Starting according to their number, from the lowest to the highest, the 
+scripts are invoked and run on startup.
+
+There is also a set of Kill scripts, which begin with K and are used to 
+stop the services when the system is being shut down, rebooted or 
+runlevels switched.
+
+### 4.2 Linux Exercises
 Using [the directory: normal_ubu16_vagrant](normal_ubu16_vagrant) , go to the
 directory and vagrant up:
 ```
 cd normal_ubu16_vagrant
 vagrant up
 ```
-answer the following questions in the Cyber Aces tutorial.  Run applications and 
-services in the "safe" normal ubuntu vagrant.
+Run applications and  services in the "safe" normal ubuntu vagrant, 
+answer the following questions (some of these would be pipes):
+
+**4.2.1:**
+What is the command on the command line to look at services?
+
+**4.2.2:**
+What would be the pipe command to **list all loaded units**?
+
+What would be the pipe command to **list all enabled units**?
+
+What would be the pipe command to **list all loaded services**?
+
+What would be the pipe command to **list all enabled services**?
+
+**4.2.3:**
+Do the following command for systemctl:
+```bash
+sudo systemctl status sshd
+```
+
+How do disable or enable sshd?
 
 ## Other lessons
 Each one of these is going to have exercises associated with them:
