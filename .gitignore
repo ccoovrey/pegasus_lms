@@ -1,8 +1,9 @@
-03-intro_linux_bash/01_ubu16_vagrant/.vagrant/*
-03-intro_linux_bash/02_ubu16_vagrant/.vagrant/*
-03-intro_linux_bash/03_mid_intro_linux/.vagrant/*
-03-intro_linux_bash/normal_ubu16_vagrant/.vagrant/*
-04-intro_win_powershell/01_win10_vagrant/.vagrant/*
-04-intro_win_powershell/02_win10_vagrant/.vagrant/*
-04-intro_win_powershell/03_win10_vagrant/.vagrant/*
-04-intro_win_powershell/normal_win10_vagrant/.vagrant/*
+03-intro_linux/01_ubu16_vagrant/.vagrant/*
+03-intro_linux/02_ubu16_vagrant/.vagrant/*
+03-intro_linux/03_mid_intro_linux/.vagrant/*
+03-intro_linux/normal_ubu16_vagrant/.vagrant/*
+04-intro_win/01_win10_vagrant/.vagrant/*
+04-intro_win/02_win10_vagrant/.vagrant/*
+04-intro_win/03_win10_vagrant/.vagrant/*
+04-intro_win/normal_win10_vagrant/.vagrant/*
+
