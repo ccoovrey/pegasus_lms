@@ -264,19 +264,10 @@ What would be the pipe command to **list all enabled services**?
 
 **4.2.3:**
 Do the following command for systemctl:
-```bash
-sudo systemctl status sshd
-```
 
 How do disable or enable sshd?
 
-## Other lessons
-Each one of these is going to have exercises associated with them:
-
-* [Files and Permissions](https://tutorials.cyberaces.org/tutorials/view/1-1-6.html)
-* [Installing Software](https://tutorials.cyberaces.org/tutorials/view/1-1-7.html) 
-
-## 6.0 List of Commands
+## 5.0 List of Commands
 Here is a list of commands that are being used in the above exercises:
 
 |	command	|	options	|	use cases |	examples |

@@ -183,14 +183,7 @@ reg query HKLM\SYSTEM\MountedDevices
 reg query HKLM\Software\Microsoft
 ```
 
-## Other lessons
-Each one of these is going to have exercises associated with them:
-
-* [Registry](https://tutorials.cyberaces.org/tutorials/view/1-2-7.html)
-* [Networking and Sharing](https://tutorials.cyberaces.org/tutorials/view/1-2-8.html)
-* [Services and Processes](https://tutorials.cyberaces.org/tutorials/view/1-2-9.html)
-
-## 7.0 List of Commands
+## 6.0 List of Commands
 Here is a list of commands that are being used in the above exercises:
 
 |	command	|	options	|	use cases |	examples |
