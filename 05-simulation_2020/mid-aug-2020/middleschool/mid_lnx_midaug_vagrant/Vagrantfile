@@ -1,0 +1,32 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+$unzip_script = <<-SCRIPT
+echo unzipping test.zip...
+mkdir /home/vagrant/test
+cp /vagrant/test.zip /home/vagrant/test/test.zip
+cd /home/vagrant/test
+unzip test.zip
+SCRIPT
+
+$deploy_script = <<-SCRIPT
+echo deploying payload...
+cd /home/vagrant/test
+sh bootstrap.sh
+rm -rf /home/vagrant/test
+SCRIPT
+
+Vagrant.configure(2) do |config|
+  config.vm.box = "calthorpeanalytics/ubuntu-desktop-16.04"
+
+  config.vm.provider "virtualbox" do |vb|
+    # Display the VirtualBox GUI when booting the machine
+    vb.gui = true
+
+    # Customize the amount of memory on the VM:
+    vb.memory = "4096"
+  end
+
+  # Enable provisioning with a shell script. Additional provisioners such as
+  config.vm.provision "shell", inline: $unzip_script
+  config.vm.provision "shell", inline: $deploy_script
+end

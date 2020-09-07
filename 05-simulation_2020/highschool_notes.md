@@ -1,13 +1,12 @@
-# List of simulation vulnerabilities
+# High School list of simulation vulnerabilities
 
 ## Mid-August 2020 
 
 For this first set of vulnerabilities we have a windows and a linux
-vagrant. Both teams (high school and middle school) will look at these
-vagrants. In this sprint, we have two vagrants:
+vagrant. High school will look at these vagrants. In this sprint, we have two vagrants:
 
-* [mid-aug 2020 linux vagrant: mid-aug-2020/lnx_midaug_vagrant](mid-aug-2020/lnx_midaug_vagrant)
-* [mid-aug 2020 windows vagrant: mid-aug-2020/win_midaug_vagrant](mid-aug-2020/win_midaug_vagrant)
+* [mid-aug 2020 linux vagrant: found in mid-aug-2020/highschool/hs_lnx_midaug_vagrant](mid-aug-2020/highschool/hs_lnx_midaug_vagrant)
+* [mid-aug 2020 windows vagrant: found in mid-aug-2020/highschool/hs_win_midaug_vagrant](mid-aug-2020/highschool/hs_win_midaug_vagrant)
 
 ### Scenario
 User vagrant (password vagrant) is a user account to be able to interface
