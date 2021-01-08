@@ -6,6 +6,7 @@
 * Introduction
 * Key Concepts
 * Download Git
+* Git Commands
 
 Git Reference:
 

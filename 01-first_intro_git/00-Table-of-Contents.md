@@ -9,4 +9,4 @@
 * [Git](01_Introduction.md)
 * [Key Concepts](02_key_concepts.md)
 * [Download Git](03_download_git.md)
-  
+* [Git Commands](04_git_commands.md)
